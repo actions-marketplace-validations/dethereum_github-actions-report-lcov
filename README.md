@@ -1,4 +1,4 @@
-# GitHub Action — Report LCOV
+# GitHub Action — Record LCOV
 
 This GitHub Action (written in JavaScript) allows you to leverage GitHub Actions to report the code coverage from LCOV files. This action includes:
 - Generating an HTML report as an artifact
@@ -49,10 +49,6 @@ jobs:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         working-directory: apps/my-first-app
 ```
-
-### Flutter Workflows
-
-This is used in my opinionated [GitHub Actions: Flutter Workflows](https://github.com/zgosalvez/github-actions-flutter-workflows) repository along with other actions for a complete end-to-end DevOps experience.
 
 ## License
 The scripts and documentation in this project are released under the [MIT License](LICENSE)

@@ -1,7 +1,6 @@
-# https://github.com/actions/javascript-action
 
-name: 'Report LCOV'
-description: 'Report the code coverage from LCOV files'
+name: 'Record LCOV'
+description: 'Record the code coverage from LCOV files'
 author: 'Zennon Gosalvez'
 inputs:
   coverage-files:
