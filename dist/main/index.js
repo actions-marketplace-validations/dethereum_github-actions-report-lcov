@@ -18453,8 +18453,6 @@ const path = __webpack_require__(5622);
 
 async function run() {
   try {
-    await exec.exec('sudo apt-get install -y lcov');
-
     const tmpPath = path.resolve(os.tmpdir(), github.context.action);
     const coverageFilesPattern = core.getInput('coverage-files');
     const globber = await glob.create(coverageFilesPattern);
