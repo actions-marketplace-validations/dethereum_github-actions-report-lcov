@@ -41,7 +41,7 @@ jobs:
       uses: actions/checkout@v2
     # ... Generate LCOV files or download it from a different job
     - name: Report code coverage
-      uses: zgosalvez/github-actions-report-lcov@v1
+      uses: dethereum/github-actions-report-lcov@v1.0.0
       with:
         coverage-files: coverage/lcov.*.info
         minimum-coverage: 90
@@ -52,3 +52,6 @@ jobs:
 
 ## License
 The scripts and documentation in this project are released under the [MIT License](LICENSE)
+
+## Acknowledgements
+The code is based on [zgosalvez/github-actions-report-lcov](https://github.com/zgosalvez/github-actions-report-lcov) and you should probably use that action
